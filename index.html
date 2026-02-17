@@ -1,10 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Narayan Gurung | 2D Animator</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+body{
+  background:#0f172a;
+  color:#fff;
+  line-height:1.6;
+}
+header{
+  padding:20px 10%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.logo{
+  font-size:24px;
+  font-weight:700;
+  color:#38bdf8;
+}
+nav a{
+  color:#fff;
+  margin-left:20px;
+  text-decoration:none;
+  transition:.3s;
+}
+nav a:hover{
+  color:#38bdf8;
+}
+.hero{
+  height:90vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:0 10%;
+}
+.hero h1{
+  font-size:48px;
+  margin-bottom:20px;
+}
+.hero span{
+  color:#38bdf8;
+}
+.hero p{
+  font-size:18px;
+  margin-bottom:30px;
+  max-width:600px;
+}
+.btn{
+  padding:12px 28px;
+  background:#38bdf8;
+  color:#000;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:600;
+  transition:.3s;
+}
+.btn:hover{
+  background:#0ea5e9;
+}
+section{
+  padding:80px 10%;
+}
+.section-title{
+  font-size:32px;
+  margin-bottom:40px;
+  text-align:center;
+}
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+.card{
+  background:#1e293b;
+  padding:30px;
+  border-radius:15px;
+  transition:.3s;
+}
+.card:hover{
+  transform:translateY(-10px);
+  background:#334155;
+}
+.portfolio{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:20px;
+}
+.portfolio iframe{
+  width:100%;
+  height:200px;
+  border-radius:10px;
+}
+.contact{
+  text-align:center;
+}
+footer{
+  text-align:center;
+  padding:20px;
+  background:#1e293b;
+  margin-top:40px;
+}
+@media(max-width:768px){
+  .hero h1{
+    font-size:32px;
+  }
+}
+</style>
+</head>
 <body>
 
-<h1>My First Heading</h1>
+<header>
+  <div class="logo">Narayan Gurung</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-<p>My first paragraph.</p>
+<section class="hero">
+  <div>
+    <h1>I Bring Ideas to Life with <span>2D Animation</span></h1>
+    <p>Professional 2D Explainer Video Animator specializing in After Effects and Spine 2D. I help businesses turn complex ideas into simple, engaging animated videos.</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    Hi, I'm Narayan Gurung — a professional 2D animator focused on creating clean, engaging, and story-driven explainer videos. 
+    I specialize in smooth motion, clear storytelling, and modern visuals that help brands communicate effectively.
+  </p>
+</section>
+
+<section id="services">
+  <h2 class="section-title">My Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Explainer Videos</h3>
+      <p>Clear and engaging animated videos that simplify complex ideas.</p>
+    </div>
+    <div class="card">
+      <h3>Character Animation</h3>
+      <p>Smooth and expressive 2D character animation using Spine 2D.</p>
+    </div>
+    <div class="card">
+      <h3>Motion Graphics</h3>
+      <p>Modern motion design and animated visuals for apps and brands.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2 class="section-title">Portfolio</h2>
+  <div class="portfolio">
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Let’s Work Together</h2>
+  <div class="contact">
+    <p>Email: your@email.com</p>
+    <p>Fiverr | Upwork | LinkedIn</p>
+    <br>
+    <a href="mailto:your@email.com" class="btn">Hire Me</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Narayan Gurung | 2D Animator</p>
+</footer>
 
 </body>
 </html>
