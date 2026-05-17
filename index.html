@@ -1,307 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Narayan Gurung | 2D Animator</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:'Poppins', sans-serif;
-}
-  body{
-  background:#0f172a;
-  color:#fff;
-  line-height:1.6;
-}
-header{
-  padding:20px 10%;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.logo{
-  font-size:24px;
-  font-weight:700;
-  color:#38bdf8;
-}
-nav a{
-  color:#fff;
-  margin-left:20px;
-  text-decoration:none;
-  transition:.3s;
-}
-nav a:hover{
-  color:#38bdf8;
-}
-.hero{
-  height:90vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  padding:0 10%;
-}
-.hero h1{
-  font-size:48px;
-  margin-bottom:20px;
-}
-.hero span{
-  color:#38bdf8;
-}
-.hero p{
-  font-size:18px;
-  margin-bottom:30px;
-  max-width:600px;
-}
-.btn{
-  padding:12px 28px;
-  background:#38bdf8;
-  color:#000;
-  text-decoration:none;
-  border-radius:30px;
-  font-weight:600;
-  transition:.3s;
-}
-.btn:hover{
-  background:#0ea5e9;
-}
-section{
-  padding:80px 10%;
-}
-.section-title{
-  font-size:32px;
-  margin-bottom:40px;
-  text-align:center;
-}
-.services{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:30px;
-}
-.card{
-  background:#1e293b;
-  padding:30px;
-  border-radius:15px;
-  transition:.3s;
-}
-.card:hover{
-  transform:translateY(-10px);
-  background:#334155;
-}
-.portfolio{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-  gap:20px;
-}
-.portfolio iframe{
-  width:100%;
-  height:200px;
-  border-radius:10px;
-}
-.contact{
-  text-align:center;
-}
-footer{
-  text-align:center;
-  padding:20px;
-  background:#1e293b;
-  margin-top:40px;
-}
-@media(max-width:768px){
-  .hero h1{
-    font-size:32px;
-  }
-}
-</style>
-</head>
-<body>
-
-<header>
-  <div class="logo">Narayan Gurung</div>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
-<section class="hero">
-  <div>
-    <h1>I Bring Ideas to Life with <span>2D Animation</span></h1>
-    <p>Professional 2D Animator specializing in After Effects and Spine 2D. I help businesses turn complex ideas into simple, engaging animated videos.</p>
-    <a href="#portfolio" class="btn">View My Work</a>
-  </div>
-</section>
-
-<section id="about">
-  <h2 class="section-title">About Me</h2>
-  <p style="text-align:center; max-width:700px; margin:auto;">
-    Hi, I'm Narayan Gurung — a professional 2D animator focused on creating clean, engaging, and story-driven explainer videos. 
-    I specialize in smooth motion, clear storytelling, and modern visuals that help brands communicate effectively.
-  </p>
-</section>
-
-  <section id="services">
+<!-- SERVICES -->
+<section id="services">
   <h2 class="section-title">My Services</h2>
+
   <div class="services">
+
+    <!-- SPINE 2D -->
     <div class="card">
-  
-      <section id="spine-animation" style="padding: 60px 20px; max-width: 1000px; margin: auto; font-family: Arial, sans-serif; line-height: 1.6;">
-    
-    <h2 style="font-size: 32px; margin-bottom: 20px; text-align: center;">
-        Spine 2D Animation 
-    </h2>
+      <h3>Spine 2D Animation</h3>
+      <p>
+        Smooth and dynamic game-ready character animation using Spine 2D.
+      </p>
 
-    <p style="font-size: 18px; text-align: center; margin-bottom: 40px;">
-        Bring your characters to life with smooth, dynamic, and game-ready animation using Spine 2D.
-    </p>
+      <ul>
+        <li>Character Rigging</li>
+        <li>Idle / Walk / Run Cycles</li>
+        <li>Attack & Action Animation</li>
+        <li>Game Export Ready</li>
+      </ul>
+    </div>
 
-    <p>
-        I specialize in creating high-quality 2D skeletal animations that are lightweight, flexible, and perfect for games, apps, and interactive media. From character rigging to polished motion, every animation is designed for performance and visual impact.
-    </p>
+    <!-- AFTER EFFECTS -->
+    <div class="card">
+      <h3>Adobe After Effects</h3>
+      <p>
+        Modern motion graphics and explainer videos with smooth animation.
+      </p>
 
-    <p>
-        With a strong focus on timing, expression, and fluid movement, I ensure each character feels alive and engaging. Whether you need idle animations, walk cycles, combat actions, or full animation sets, I deliver clean and optimized results ready for integration.
-    </p>
-
-    <h3 style="margin-top: 40px;">What I Offer:</h3>
-    <ul>
-        <li>Character rigging in Spine</li>
-        <li>Smooth and expressive animations</li>
-        <li>Game-ready export (Unity, Unreal, etc.)</li>
-        <li>Loop animations (idle, walk, run)</li>
-        <li>Action animations (attack, jump, skill)</li>
-        <li>UI and effects animation</li>
-        <li>Optimization for performance</li>
-    </ul>
-
-    <h3 style="margin-top: 40px;">Why Choose Me:</h3>
-    <ul>
-        <li>Clean and organized rigging structure</li>
-        <li>Attention to detail and natural motion</li>
-        <li>Fast delivery with consistent quality</li>
-        <li>Experience working with game developers and studios</li>
-    </ul>
-   
-</section>
-
-<section id="spine-animation" style="padding: 60px 20px; max-width: 1000px; margin: auto; font-family: Arial, sans-serif; line-height: 1.6;">
-    
-    <h2 style="font-size: 32px; margin-bottom: 20px; text-align: center;">
-       Adobe After Effects Animation 
-    </h2>
-    <p style="font-size: 18px; text-align: center; margin-bottom: 40px;">
-        Bring your ideas to life with high-quality motion graphics crafted in Adobe After Effects.
-    </p>
-   
-  <p> 
-      From engaging explainer videos to eye-catching logo animations, every project is designed 
-      to deliver clear storytelling and strong visual impact.
-    </p>
-
-    <p>
-      I specialize in creating smooth, modern, and visually appealing animations that help brands 
-      communicate their message effectively. Whether it's for marketing, social media, or business 
-      presentations, each animation is tailored to match your unique style and goals.
-    </p>
-    
-   <h3 style="margin-top: 40px;">Why Choose Me:</h3>
-   <ul class="features">
-      <li>✔ Logo Animation & Intro Videos</li>
-      <li>✔ 2D Explainer Videos</li>
-      <li>✔ Motion Graphics for Social Media</li>
-      <li>✔ Promotional & Advertisement Videos</li>
-      <li>✔ UI/UX Animation & Transitions</li>
-    </ul>
-
-     <div class="cta">
-      <p>Let’s turn your ideas into engaging animations that stand out.</p>
+      <ul>
+        <li>Explainer Videos</li>
+        <li>Logo Animation</li>
+        <li>Social Media Motion Graphics</li>
+        <li>UI Animation</li>
+      </ul>
     </div>
 
   </div>
 </section>
-      
+
+<!-- PORTFOLIO -->
 <section id="portfolio">
   <h2 class="section-title">My Portfolio</h2>
 
-  <!-- AFTER EFFECTS SECTION -->
-<section id="after-effects">
-  <h2 class="section-title">After Effects Animation</h2>
-  <div class="portfolio-grid">
+  <!-- AFTER EFFECTS -->
+  <h3 class="portfolio-title">After Effects Animation</h3>
 
-    <div class="w3-row-padding">
-    <iframe width="420" height="345" src="https://www.youtube.com/embed/JzX_HxPGDVk"></iframe>
-     <h3>Explainer video</h3>
-    <iframe width="420" height="345" src="https://www.youtube.com/embed/TjBdHQCeWgA"></iframe>
-      <h3>Stick chaearacter Animation</h3>
-    
-    <iframe width="420" height="345" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
-    
-    <iframe width="420" height="345" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
-   
-    <iframe width="420" height="345" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
-      
-  </div>
-</section>
-
-
-<!-- SPINE 2D SECTION -->
-<section id="spine2d">
-  <h2 class="section-title">Spine 2D Character Animation</h2>
-
-  <div class="portfolio-grid">
+  <div class="portfolio">
 
     <div class="video-card">
-      <iframe width="420" height="345" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
-      
-     <iframe width="420" height="345" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
-      
-      <iframe width="420" height="345" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
-     
-      <iframe width="420" height="345" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
-      
-     <iframe width="420" height="345" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe>
-      <h3>Kids Character</h3>
+      <iframe src="https://www.youtube.com/embed/JzX_HxPGDVk"
+      allowfullscreen></iframe>
+      <h4>Explainer Video</h4>
+    </div>
+
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/TjBdHQCeWgA"
+      allowfullscreen></iframe>
+      <h4>Stick Figure Animation</h4>
+    </div>
+
+  </div>
+
+  <!-- SPINE 2D -->
+  <h3 class="portfolio-title">Spine 2D Animation</h3>
+
+  <div class="portfolio">
+
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+      allowfullscreen></iframe>
+      <h4>Kids Character Animation</h4>
+    </div>
+
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+      allowfullscreen></iframe>
+      <h4>Game Character Animation</h4>
     </div>
 
   </div>
 </section>
- 
-  </div>
-</section>
-
-<section id="contact">
-  <h2 class="section-title">Let’s Work Together</h2>
-  <div class="contact">
-    <p>Email: narayan.caraou@gmail.com</p>
-    <p>Upwork | LinkedIn</p>
-    <br>
-    <a href="mailto:narayan.caraou@gmail.com" class="btn">Hire Me</a>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Narayan Gurung | 2D Animator</p>
-</footer>
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
